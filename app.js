@@ -25,7 +25,7 @@
  const songCurrentTime = $('.progress-time__current-time')
  const showPlaylistIcon = $('.list-music__icon')
  const closePlaylistIcon = $('.close-list')
- const playlist = $('.playlist__container')
+ const playlist = $('.playlist')
  const playlistInner = $('.playlist')
  const playBtn = $('.btn__play')
  const prevBtn = $('.btn__previous')
@@ -422,7 +422,18 @@
              }
          })
  
- 
+         showPlaylistIcon.onclick = function() {
+            _this.togglePlaylist()
+            }
+            closePlaylistIcon.onclick = function() {
+            _this.togglePlaylist()
+            }
+            playlist.onclick = function() {
+            _this.togglePlaylist()
+            }
+            playlistInner.onclick = function(){
+            this.stopPropagation()
+            }
          // Xử lý volume
          volumeBtn.onclick = function() {
              _this.isMute = !_this.isMute

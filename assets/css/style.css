@@ -1,15 +1,21 @@
 .music-card {
   float: left;
   width: 400px;
-  min-height: 580px;
+  max-width: 40%;
+  height: 580px;
   background-color: transparent;
   border-radius: 10px;
   text-align: center;
   padding: 20px 40px;
   box-shadow: 0 0 5px rgba(0, 0, 0 , 0.3);
-  margin-right: 32px;
+  margin-right: 2%;
+  margin-left:  4%;
 }
-
+.music-card::after{
+  content: "";
+  display: block;
+  clear: both;
+}
 .music-card__header {
   font-size: 2rem;
   font-weight: bold;
@@ -39,8 +45,9 @@
 }
 
 .playlist {
-  max-height: 580px;
-  width: 600px;
+  height: 580px;
+  width: 580px;
+  max-width: 50%;
   background-color: transparent;
   box-shadow: 0 0 5px rgba(0, 0, 0 , 0.3);;
   border-radius: 10px;

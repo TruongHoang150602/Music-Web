@@ -15,9 +15,21 @@
 
 /* Mobile */
 @media (max-width: 739px) {
-    .music-card,
-    .playlist {
+    .music-card {
         max-width: 90%;
-        margin: 0 auto;
+        margin: 0 5%;
+        display: block;
+        position: relative;
+    }
+    .playlist {
+        display: none;
+    }
+    .playlist.list-open{
+        position: fixed;
+        display: block;
+        max-width: 92%;
+        margin: 0 4%;
+        background-image: linear-gradient( 45deg,  rgb(200, 80, 192) 0%, rgb(255, 204, 112) 100% );
+        animation: slideInBottom 1s;
     }
 }
