@@ -54,18 +54,30 @@
      isFavourite: false,
      songs: 
      [
-         {
-             name: 'Little do you know',
-             author: 'Alex & Sierra',
-             image: './assets/img/Suzy4.jpg',
-             path: './assets/music/Little_do_you_know_Alex_&_Sierra.mp3'
-         },
-         {
-             name: 'When night falls',
-             author: 'Eddi Kim',
-             image: './assets/img/Suzy2.jpg',
-             path: './assets/music/When_night_falls_Eddi_Kim.mp3'
-         },
+        {
+            name: '2002',
+            author: 'Annie Marie',
+            image: './assets/img/anne-marie.jfif',
+            path: './assets/music/2002.mp3'
+        },
+        {
+            name: 'Save me',
+            author: 'ĐEAMN',
+            image: './assets/img/deamn.jpg',
+            path: './assets/music/Save_me.mp3'
+        },
+        {
+            name: 'Waiting For You',
+            author: 'Mono',
+            image: './assets/img/mono.jpg',
+            path: './assets/music/Waiting_for_you.mp3'
+        },
+        {
+            name: 'Vì mẹ anh bắt chia tay',
+            author: 'Miu Lê & Karik',
+            image: './assets/img/miule.jpg',
+            path: './assets/music/Vi_me_anh_bat_chia_tay.mp3'
+        },
          {
              name: 'Too late',
              author: 'Addie Nicole',
@@ -97,22 +109,10 @@
              path: './assets/music/Trap_Queen_Remix_Adriana_Gomez.mp3'
          },
          {
-             name: 'Devil From Heaven',
-             author: 'TVT Remix',
-             image: './assets/img/Devil.jpg',
-             path: './assets/music/Ac_ma_den_tu_thien_duong_TVT_Remix.mp3'
-         },
-         {
              name: 'Cheap Thrills',
              author: 'Sia',
              image: './assets/img/CheapThrill.jfif',
              path: './assets/music/Cheap_Thrills_Sia.mp3'
-         },
-         {
-             name: 'Let\'s marriage',
-             author: 'Masew ft. Masiu',
-             image: './assets/img/CuoiThoi.jpg',
-             path: './assets/music/Cuoi_Thoi_Masew_x_Masiu.mp3'
          },
          {
              name: 'Diamond Ver 2',
@@ -145,22 +145,10 @@
              path: './assets/music/Larg_Elgit_Doda.mp3'
          },
          {
-             name: 'Love me like you do',
-             author: 'Ellie Goulding',
-             image: './assets/img/LoveMeLikeYouDo.jfif',
-             path: './assets/music/Love_me_like_you_do_Ellie_Goulding.mp3'
-         },
-         {
              name: 'Love story',
              author: 'Taylor Swift',
              image: './assets/img/Taylor.jpg',
              path: './assets/music/Love_story_Taylor_Swift.mp3'
-         },
-         {
-             name: 'Love the way you lie',
-             author: 'Skylar Grey',
-             image: './assets/img/Suzy3.jpg',
-             path: './assets/music/Love_the_way_you_like_Skylar_Grey.mp3'
          },
          {
              name: 'Nevada',
